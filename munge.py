@@ -1,9 +1,9 @@
 import base64
-import binascii
 import collections
 import csv
 import json
-import pygal
+import matplotlib.ticker
+import matplotlib.pyplot as plt
 
 def read_telemetry():
     raw = open("cert.validation_success_by_ca.json").read()
@@ -33,7 +33,8 @@ def read_ca_owners():
         reader = csv.DictReader(csvfile)
         for row in reader:
             raw = bytes.fromhex(row["SHA-256 Fingerprint"])
-            CAs[raw] = row["CA Owner"]
+            # Some CA names have extra info after a , or in (, which we cut off
+            CAs[raw] = row["CA Owner"].split(",")[0].split("(")[0]
     return CAs
 
 
@@ -57,29 +58,38 @@ with open("CA.csv", "w") as f:
         if count > 0:
             w.writerow([name, count])
 
-def formatter(entry):
-    if entry > 1_000_000_000:
-        entry = int(entry/1_000_000_000)
-        return f"{entry} B"
-    if entry > 1_000_000:
-        entry = int(entry/1_000_000)
-        return f"{entry} M"
-    return f"{entry:,}"
+@matplotlib.ticker.FuncFormatter
+def human_format(num, pos):
+    magnitude = 0
+    while abs(num) >= 1000:
+        magnitude += 1
+        num /= 1000
+    return '%.0f%s' % (int(num), ['', 'K', 'M', 'B'][magnitude])
 
-bar_chart = pygal.HorizontalBar(dynamic_print_values=True, pretty_print=True, truncate_legend=len("Internet Security Research Group"))
-bar_chart.title = "Mozilla Handshakes by CA"
-bar_chart.value_formatter = formatter
 other = 0
 threshold = int(0.0002 * total)
-print("Graphing entries above threshold", threshold)
 
-
+names = []
+values = []
 for name, count in sorted(CAs.items(), key=lambda kv: kv[1], reverse=True):
     # Skip entries below 0.01:
     if count >  threshold:
-        bar_chart.add(name, count)
+        names += [name]
+        values += [count]
     else:
         other += count
 
-bar_chart.add("Other", other)
-bar_chart.render_to_file("CA.svg")
+names += ["Other"]
+values += [other]
+
+names.reverse()
+values.reverse()
+
+fig, ax = plt.subplots(figsize=(16, 8))
+ax.xaxis.set_major_formatter(human_format)
+
+plt.barh(names, values)
+plt.title("Firefox Certificate Validations by CA")
+plt.tight_layout()
+
+plt.savefig("CA.svg")
