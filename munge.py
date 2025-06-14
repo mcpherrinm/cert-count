@@ -66,7 +66,7 @@ def formatter(entry):
         return f"{entry} M"
     return f"{entry:,}"
 
-bar_chart = pygal.HorizontalBar(dynamic_print_values=True, pretty_print=True)
+bar_chart = pygal.HorizontalBar(dynamic_print_values=True, pretty_print=True, truncate_legend=len("Internet Security Research Group"))
 bar_chart.title = "Mozilla Handshakes by CA"
 bar_chart.value_formatter = formatter
 other = 0
