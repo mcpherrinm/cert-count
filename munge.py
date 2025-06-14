@@ -49,6 +49,12 @@ with open("CA.csv", "w") as f:
             w.writerow([name, count])
 
 def formatter(entry):
+    if entry > 1_000_000_000:
+        entry = int(entry/1_000_000_000)
+        return f"{entry} B"
+    if entry > 1_000_000:
+        entry = int(entry/1_000_000)
+        return f"{entry} M"
     return f"{entry:,}"
 
 bar_chart = pygal.HorizontalBar(dynamic_print_values=True, pretty_print=True)
