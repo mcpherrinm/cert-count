@@ -33,7 +33,9 @@ CAs = collections.defaultdict(int)
 for bin, count in read_telemetry().items():
     if bin in bin_names:
         # This is pretty crappy but mostly works for merging roots by CA
-        name = "_".join(bin_names[bin].split("_", 2)[0:2])
+        name = bin_names[bin].split("_", 1)[0]
+        if len(name) < 3:
+            name = " ".join(bin_names[bin].split("_", 2)[0:2])
         CAs[name] += count
 
 with open("CA.csv", "w") as f:
