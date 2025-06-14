@@ -1,65 +1,48 @@
 CA,count
-GTS,165686585639
-DigiCert,143466133482
-ISRG,74114902334
-Amazon,49030451344
-Entrust,40431705315
-USERTrust,26973456064
-GlobalSign,25381556063
-Go Daddy,6614229353
-Starfield,5296068228
-Certum,1667283995
-COMODO,1643485247
-OU Security,1462618566
-T TeleSec,1139260084
-TUBITAK,967353312
-SSL,364973667
+Google Trust Services LLC,165686585903
+DigiCert,143466971891
+Internet Security Research Group,74114902334
+Amazon Trust Services,49031592811
+Entrust,40431740394
+Sectigo,28737689409
+GlobalSign nv-sa,25381555799
+GoDaddy,11909262486
+Asseco Data Systems S.A. (previously Unizeto Certum),1667283995
+"SECOM Trust Systems CO., LTD.",1462656988
+Deutsche Telekom Security GmbH,1139260085
+"Government of Turkey, Kamu Sertifikasyon Merkezi (Kamu SM)",967353312
+SSL.com,364973667
 Certigna,251395607
 Buypass,209133703
-IdenTrust,165124357
-SwissSign,150236018
+"IdenTrust Services, LLC",165124357
+SwissSign AG,150236018
 QuoVadis,140530365
 Actalis,106198068
-Microsoft,94558910
-SecureTrust,88956017
-AAA,88949287
-HARICA,81369908
-emSign,68814455
-Microsec,54196797
-OU AC,47068944
-TWCA,37478113
-D TRUST,32688130
-Sectigo,31798811
-CFCA,30407383
-Telia,26234893
-NetLock,23579736
-ACCVRAIZ1,15774184
-UCA,15500485
-Autoridad,12953970
-Izenpe,9200028
-HiPKI,8553443
-Hongkong,7264275
-OU certSIGN,4192182
+Microsoft Corporation,94558910
+"Viking Cloud, Inc.",89150705
+HARICA,81370140
+eMudhra Technologies Limited,68814455
+Microsec Ltd.,54635318
+"Government of Spain, Fábrica Nacional de Moneda y Timbre (FNMT)",48793525
+Taiwan-CA Inc. (TWCA),37478113
+D-TRUST,32688130
+China Financial Certification Authority (CFCA),30407383
+Telia Company,26235009
+Netlock,23579736
+"Government of Spain, Autoritat de Certificació de la Comunitat Valenciana (ACCV)",15774184
+"Shanghai Electronic Certification Authority Co., Ltd.",15500485
+Autoridad de Certificacion Firmaprofesional,12953970
+Chunghwa Telecom,10966362
+Izenpe S.A.,9200028
+"Government of Hong Kong (SAR), Hongkong Post, Certizen",7264275
+certSIGN,4192182
 OISTE,2430749
-OU ePKI,2412919
-CA Disig,2349041
-AC RAIZ,1724581
-Baltimore,838409
-Atos,539073
-GDCA,521464
-e Szigno,438521
-SZAFIR,253494
-Trustwave,194686
-NAVER,148101
-OU Go,80796
-TunTrust,39156
-Security,38422
-AffirmTrust,35079
-OU Starfield,25576
-Certainly,2757
-Hellenic,232
-TeliaSonera,116
-GLOBALTRUST,7
-Secure,2
-Telekom,1
-TrustAsia,1
+"Disig, a.s.",2349041
+Eviden,539073
+"Global Digital Cybersecurity Authority Co., Ltd. (Formerly Guang Dong Certificate Authority (GDCA))",521464
+Krajowa Izba Rozliczeniowa S.A. (KIR),253494
+NAVER Cloud Trust Services,148101
+Agence Nationale de Certification Electronique,39156
+Certainly LLC,2757
+e-commerce monitoring GmbH,7
+"TrustAsia Technologies, Inc.",1

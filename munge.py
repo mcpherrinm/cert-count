@@ -1,3 +1,5 @@
+import base64
+import binascii
 import collections
 import csv
 import json
@@ -15,29 +17,36 @@ def read_telemetry():
 
     return bins
 
-def read_bin_names():
+def read_bin_fingerprints():
     raw = open("KnownRootHashes.json").read()
     data = json.loads(raw)
 
-    bin_names = {}
-
+    ret = {}
     for root in data["roots"]:
-        bin_names[root["binNumber"]] = root["label"]
+        ret[root["binNumber"]] = base64.b64decode(root["sha256Fingerprint"])
 
-    return bin_names
+    return ret
+
+def read_ca_owners():
+    CAs = {}
+    with open("AllCertificateRecordsCSVFormatv2.csv", newline="") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            raw = bytes.fromhex(row["SHA-256 Fingerprint"])
+            CAs[raw] = row["CA Owner"]
+    return CAs
 
 
-bin_names = read_bin_names()
+bin_fingerprints = read_bin_fingerprints()
+ca_owners = read_ca_owners()
 
 CAs = collections.defaultdict(int)
 total = 0
 
 for bin, count in read_telemetry().items():
-    if bin in bin_names:
-        # This is pretty crappy but mostly works for merging roots by CA
-        name = bin_names[bin].split("_", 1)[0]
-        if len(name) < 3:
-            name = " ".join(bin_names[bin].split("_", 2)[0:2])
+    if bin in bin_fingerprints:
+        fingerprint = bin_fingerprints[bin]
+        name = ca_owners[fingerprint]
         CAs[name] += count
         total += count
 

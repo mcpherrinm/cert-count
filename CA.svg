@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782" class="pygal-chart" viewBox="0 0 800 600"><!--Generated with pygal 3.0.5 (etree) ©Kozea 2012-2016 on 2025-06-14--><!--http://pygal.org--><!--http://github.com/Kozea/pygal--><defs><style type="text/css">/*
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="chart-a18f3a16-0f28-4754-970e-2298c4f78f25" class="pygal-chart" viewBox="0 0 800 600"><!--Generated with pygal 3.0.5 (etree) ©Kozea 2012-2016 on 2025-06-14--><!--http://pygal.org--><!--http://github.com/Kozea/pygal--><defs><style type="text/css">/*
  * This file is part of pygal
  *
  * A python svg graph plotting library
@@ -23,48 +23,48 @@
  * Font-sizes from config, override with care
  */
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  {
   -webkit-user-select: none;
   -webkit-font-smoothing: antialiased;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .title {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .title {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 16px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .legends .legend text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .legends .legend text {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 14px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis text {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 10px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis text.major {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis text.major {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 10px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .text-overlay text.value {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .text-overlay text.value {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 16px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .text-overlay text.label {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .text-overlay text.label {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 10px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 14px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 text.no_data {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 text.no_data {
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 64px;
 }
@@ -93,101 +93,101 @@
  * Styles from config
  */
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 {
   background-color: rgba(249, 249, 249, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 path,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 rect,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 circle {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 path,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 rect,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 circle {
   -webkit-transition: 150ms;
   -moz-transition: 150ms;
   transition: 150ms;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .graph &gt; .background {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .graph &gt; .background {
   fill: rgba(249, 249, 249, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .plot &gt; .background {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .plot &gt; .background {
   fill: rgba(255, 255, 255, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .graph {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .graph {
   fill: rgba(0, 0, 0, .87);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 text.no_data {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 text.no_data {
   fill: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .title {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .title {
   fill: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .legends .legend text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .legends .legend text {
   fill: rgba(0, 0, 0, .87);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .legends .legend:hover text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .legends .legend:hover text {
   fill: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .line {
   stroke: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .guide.line {
   stroke: rgba(0, 0, 0, .54);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .major.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .major.line {
   stroke: rgba(0, 0, 0, .87);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis text.major {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis text.major {
   fill: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y .guides:hover .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .line-graph .axis.x .guides:hover .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .stackedline-graph .axis.x .guides:hover .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .xy-graph .axis.x .guides:hover .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y .guides:hover .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .line-graph .axis.x .guides:hover .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .stackedline-graph .axis.x .guides:hover .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .xy-graph .axis.x .guides:hover .guide.line {
   stroke: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .guides:hover text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .guides:hover text {
   fill: rgba(0, 0, 0, 1);
 }
 
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .reactive {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .reactive {
   fill-opacity: .7;
   stroke-opacity: .8;
   stroke-width: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .ci {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .ci {
     stroke: rgba(0, 0, 0, .87);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .reactive.active,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .active .reactive {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .reactive.active,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .active .reactive {
   fill-opacity: .8;
   stroke-opacity: .9;
   stroke-width: 4;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .ci .reactive.active {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .ci .reactive.active {
   stroke-width: 1.5;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .series text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .series text {
   fill: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip rect {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip rect {
   fill: rgba(255, 255, 255, 1);
   stroke: rgba(0, 0, 0, 1);
   -webkit-transition: opacity 150ms;
@@ -195,239 +195,221 @@
   transition: opacity 150ms;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip .label {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip .label {
   fill: rgba(0, 0, 0, .87);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip .label {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip .label {
   fill: rgba(0, 0, 0, .87);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip .legend {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip .legend {
   font-size: .8em;
   fill: rgba(0, 0, 0, .54);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip .x_label {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip .x_label {
   font-size: .6em;
   fill: rgba(0, 0, 0, 1);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip .xlink {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip .xlink {
   font-size: .5em;
   text-decoration: underline;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip .value {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip .value {
   font-size: 1.5em;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .bound {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .bound {
   font-size: .5em;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .max-value {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .max-value {
   font-size: .75em;
   fill: rgba(0, 0, 0, .54);
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .map-element {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .map-element {
   fill: rgba(255, 255, 255, 1);
   stroke: rgba(0, 0, 0, .54) !important;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .map-element .reactive {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .map-element .reactive {
   fill-opacity: inherit;
   stroke-opacity: inherit;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-0, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-0 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-0, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-0 a:visited {
   stroke: #f44336;
   fill: #f44336;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-1, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-1 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-1, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-1 a:visited {
   stroke: #3f51b5;
   fill: #3f51b5;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-2, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-2 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-2, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-2 a:visited {
   stroke: #009688;
   fill: #009688;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-3, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-3 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-3, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-3 a:visited {
   stroke: #ffc107;
   fill: #ffc107;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-4, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-4 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-4, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-4 a:visited {
   stroke: #ff5722;
   fill: #ff5722;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-5, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-5 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-5, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-5 a:visited {
   stroke: #9c27b0;
   fill: #9c27b0;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-6, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-6 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-6, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-6 a:visited {
   stroke: #03a9f4;
   fill: #03a9f4;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-7, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-7 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-7, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-7 a:visited {
   stroke: #8bc34a;
   fill: #8bc34a;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-8, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-8 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-8, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-8 a:visited {
   stroke: #ff9800;
   fill: #ff9800;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-9, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-9 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-9, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-9 a:visited {
   stroke: #e91e63;
   fill: #e91e63;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-10, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-10 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-10, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-10 a:visited {
   stroke: #2196f3;
   fill: #2196f3;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-11, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-11 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-11, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-11 a:visited {
   stroke: #4caf50;
   fill: #4caf50;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-12, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-12 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-12, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-12 a:visited {
   stroke: #ffeb3b;
   fill: #ffeb3b;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-13, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-13 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-13, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-13 a:visited {
   stroke: #673ab7;
   fill: #673ab7;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-14, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-14 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-14, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-14 a:visited {
   stroke: #00bcd4;
   fill: #00bcd4;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-15, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-15 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-15, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-15 a:visited {
   stroke: #cddc39;
   fill: #cddc39;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-16, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-16 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-16, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-16 a:visited {
   stroke: #9e9e9e;
   fill: #9e9e9e;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-17, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-17 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-17, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-17 a:visited {
   stroke: #607d8b;
   fill: #607d8b;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-18, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-18 a:visited {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-18, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .color-18 a:visited {
   stroke: #7b0f07;
   fill: #7b0f07;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-19, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-19 a:visited {
-  stroke: #141938;
-  fill: #141938;
-}
-
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-20, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .color-20 a:visited {
-  stroke: #000000;
-  fill: #000000;
-}
-
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-0 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-0 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-1 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-1 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-2 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-2 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-3 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-3 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-4 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-4 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-5 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-5 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-6 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-6 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-7 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-7 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-8 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-8 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-9 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-9 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-10 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-10 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-11 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-11 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-12 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-12 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-13 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-13 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-14 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-14 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-15 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-15 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-16 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-16 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-17 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-17 text {
   fill: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-18 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  .text-overlay .color-18 text {
   fill: black;
-}
-
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-19 text {
-  fill: white;
-}
-
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  .text-overlay .color-20 text {
-  fill: white;
 }
 
 
@@ -453,139 +435,139 @@
  * along with pygal. If not, see &lt;http://www.gnu.org/licenses/&gt;.
 */
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 text.no_data {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 text.no_data {
   text-anchor: middle;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .guide.line {
   fill: none;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .centered {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .centered {
   text-anchor: middle;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .title {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .title {
   text-anchor: middle;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .legends .legend text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .legends .legend text {
   fill-opacity: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.x text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.x text {
   text-anchor: middle;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.x:not(.web) text[transform] {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.x:not(.web) text[transform] {
   text-anchor: start;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.x:not(.web) text[transform].backwards {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.x:not(.web) text[transform].backwards {
   text-anchor: end;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y text {
   text-anchor: end;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y text[transform].backwards {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y text[transform].backwards {
   text-anchor: start;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y2 text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y2 text {
   text-anchor: start;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y2 text[transform].backwards {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y2 text[transform].backwards {
   text-anchor: end;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .guide.line {
   stroke-dasharray: 4,4;
   stroke: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .major.guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .major.guide.line {
   stroke-dasharray: 6,6;
   stroke: black;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .horizontal .axis.y .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .horizontal .axis.y2 .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .vertical .axis.x .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .horizontal .axis.y .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .horizontal .axis.y2 .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .vertical .axis.x .guide.line {
   opacity: 0;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .horizontal .axis.always_show .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .vertical .axis.always_show .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .horizontal .axis.always_show .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .vertical .axis.always_show .guide.line {
   opacity: 1 !important;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y .guides:hover .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.y2 .guides:hover .guide.line,
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis.x .guides:hover .guide.line {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y .guides:hover .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.y2 .guides:hover .guide.line,
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis.x .guides:hover .guide.line {
   opacity: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .axis .guides:hover text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .axis .guides:hover text {
   opacity: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .nofill {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .nofill {
   fill: none;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .subtle-fill {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .subtle-fill {
   fill-opacity: .2;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .dot {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .dot {
   stroke-width: 1px;
   fill-opacity: 1;
   stroke-opacity: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .dot.active {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .dot.active {
   stroke-width: 5px;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .dot.negative {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .dot.negative {
   fill: transparent;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  text, #chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782  tspan {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25  text, #chart-a18f3a16-0f28-4754-970e-2298c4f78f25  tspan {
   stroke: none !important;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .series text.active {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .series text.active {
   opacity: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip rect {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip rect {
   fill-opacity: .95;
   stroke-width: .5;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .tooltip text {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .tooltip text {
   fill-opacity: 1;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .showable {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .showable {
   visibility: hidden;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .showable.shown {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .showable.shown {
   visibility: visible;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .gauge-background {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .gauge-background {
   fill: rgba(229, 229, 229, 1);
   stroke: none;
 }
 
-#chart-cc3f80bd-6d70-4034-b57f-d8314d0f6782 .bg-lines {
+#chart-a18f3a16-0f28-4754-970e-2298c4f78f25 .bg-lines {
   stroke: rgba(249, 249, 249, 1);
   stroke-width: 2px;
 }
-</style><script type="text/javascript">window.pygal = window.pygal || {};window.pygal.config = window.pygal.config || {};window.pygal.config['cc3f80bd-6d70-4034-b57f-d8314d0f6782'] = {"allow_interruptions": false, "box_mode": "extremes", "classes": ["pygal-chart"], "css": ["file://style.css", "file://graph.css"], "defs": [], "disable_xml_declaration": false, "dots_size": 2.5, "dynamic_print_values": true, "explicit_size": false, "fill": false, "force_uri_protocol": "https", "formatter": null, "half_pie": false, "height": 600, "include_x_axis": false, "inner_radius": 0, "interpolate": null, "interpolation_parameters": {}, "interpolation_precision": 250, "inverse_y_axis": false, "js": ["//kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js"], "legend_at_bottom": false, "legend_at_bottom_columns": null, "legend_box_size": 12, "logarithmic": false, "margin": 20, "margin_bottom": null, "margin_left": null, "margin_right": null, "margin_top": null, "max_scale": 16, "min_scale": 4, "missing_value_fill_truncation": "x", "no_data_text": "No data", "no_prefix": false, "order_min": null, "pretty_print": true, "print_labels": false, "print_values": false, "print_values_position": "center", "print_zeroes": true, "range": null, "rounded_bars": null, "secondary_range": null, "show_dots": true, "show_legend": true, "show_minor_x_labels": true, "show_minor_y_labels": true, "show_only_major_dots": false, "show_x_guides": true, "show_x_labels": true, "show_y_guides": false, "show_y_labels": true, "spacing": 10, "stack_from_top": false, "strict": false, "stroke": true, "stroke_style": null, "style": {"background": "rgba(249, 249, 249, 1)", "ci_colors": [], "colors": ["#F44336", "#3F51B5", "#009688", "#FFC107", "#FF5722", "#9C27B0", "#03A9F4", "#8BC34A", "#FF9800", "#E91E63", "#2196F3", "#4CAF50", "#FFEB3B", "#673AB7", "#00BCD4", "#CDDC39", "#9E9E9E", "#607D8B"], "dot_opacity": "1", "font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "foreground": "rgba(0, 0, 0, .87)", "foreground_strong": "rgba(0, 0, 0, 1)", "foreground_subtle": "rgba(0, 0, 0, .54)", "guide_stroke_color": "black", "guide_stroke_dasharray": "4,4", "label_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "label_font_size": 10, "legend_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "legend_font_size": 14, "major_guide_stroke_color": "black", "major_guide_stroke_dasharray": "6,6", "major_label_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "major_label_font_size": 10, "no_data_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "no_data_font_size": 64, "opacity": ".7", "opacity_hover": ".8", "plot_background": "rgba(255, 255, 255, 1)", "stroke_opacity": ".8", "stroke_opacity_hover": ".9", "stroke_width": "1", "stroke_width_hover": "4", "title_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "title_font_size": 16, "tooltip_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "tooltip_font_size": 14, "transition": "150ms", "value_background": "rgba(229, 229, 229, 1)", "value_colors": [], "value_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "value_font_size": 16, "value_label_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "value_label_font_size": 10}, "title": "Mozilla Handshakes by CA", "tooltip_border_radius": 0, "tooltip_fancy_mode": true, "truncate_label": null, "truncate_legend": null, "width": 800, "x_label_rotation": 0, "x_labels": null, "x_labels_major": null, "x_labels_major_count": null, "x_labels_major_every": null, "x_title": null, "xrange": null, "y_label_rotation": 0, "y_labels": null, "y_labels_major": null, "y_labels_major_count": null, "y_labels_major_every": null, "y_title": null, "zero": 0, "legends": ["GTS", "DigiCert", "ISRG", "Amazon", "Entrust", "USERTrust", "GlobalSign", "Go Daddy", "Starfield", "Certum", "COMODO", "OU Security", "T TeleSec", "TUBITAK", "SSL", "Certigna", "Buypass", "IdenTrust", "SwissSign", "QuoVadis", "Other"]}</script><script type="text/javascript" xlink:href="https://kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js" /></defs><title>Mozilla Handshakes by CA</title><g class="graph horizontalbar-graph horizontal"><rect x="0" y="0" width="800" height="600" class="background" /><g transform="translate(134, 46)" class="plot"><rect x="0" y="0" width="645.6" height="514" class="background" /><g class="axis x always_show"><g class="guides"><path d="M12.415385 0.000000 v514.000000" class="major line" /><text x="12.415384615384617" y="529.0" class="major">0.0</text></g><g class="guides"><path d="M87.348334 0.000000 v514.000000" class="guide line" /><text x="87.34833448276501" y="529.0" class="">20 B</text></g><g class="guides"><path d="M162.281284 0.000000 v514.000000" class="guide line" /><text x="162.28128435014543" y="529.0" class="">40 B</text></g><g class="guides"><path d="M237.214234 0.000000 v514.000000" class="guide line" /><text x="237.21423421752579" y="529.0" class="">60 B</text></g><g class="guides"><path d="M312.147184 0.000000 v514.000000" class="guide line" /><text x="312.1471840849062" y="529.0" class="">80 B</text></g><g class="guides"><path d="M387.080134 0.000000 v514.000000" class="major guide line" /><text x="387.08013395228664" y="529.0" class="major">100 B</text></g><g class="guides"><path d="M462.013084 0.000000 v514.000000" class="guide line" /><text x="462.013083819667" y="529.0" class="">120 B</text></g><g class="guides"><path d="M536.946034 0.000000 v514.000000" class="guide line" /><text x="536.9460336870474" y="529.0" class="">140 B</text></g><g class="guides"><path d="M611.878984 0.000000 v514.000000" class="guide line" /><text x="611.8789835544278" y="529.0" class="">160 B</text></g></g><g class="series serie-20 color-20"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="454.99355311355316" rx="0" ry="0" width="3.3637820894919255" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">897 M</desc><desc class="x centered">14.097275660130581</desc><desc class="y centered">464.10622710622715</desc></g></g></g><g class="series serie-19 color-19"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="434.28293040293045" rx="0" ry="0" width="0.5265177397694814" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">140 M</desc><desc class="x centered">12.678643485269358</desc><desc class="y centered">443.39560439560444</desc></g></g></g><g class="series serie-18 color-18"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="413.57230769230773" rx="0" ry="0" width="0.5628814002534437" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">150 M</desc><desc class="x centered">12.69682531551134</desc><desc class="y centered">422.6849816849817</desc></g></g></g><g class="series serie-17 color-17"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="392.861684981685" rx="0" ry="0" width="0.6186627582482203" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">165 M</desc><desc class="x centered">12.724715994508728</desc><desc class="y centered">401.974358974359</desc></g></g></g><g class="series serie-16 color-16"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="372.15106227106236" rx="0" ry="0" width="0.7835502641239316" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">209 M</desc><desc class="x centered">12.807159747446583</desc><desc class="y centered">381.26373626373635</desc></g></g></g><g class="series serie-15 color-15"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="351.44043956043964" rx="0" ry="0" width="0.941890720810532" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">251 M</desc><desc class="x centered">12.886329975789884</desc><desc class="y centered">360.55311355311363</desc></g></g></g><g class="series serie-14 color-14"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="330.7298168498169" rx="0" ry="0" width="1.3674276746112497" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">364 M</desc><desc class="x centered">13.099098452690242</desc><desc class="y centered">339.8424908424909</desc></g></g></g><g class="series serie-13 color-13"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="310.0191941391942" rx="0" ry="0" width="3.6243318616070184" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">967 M</desc><desc class="x centered">14.227550546188127</desc><desc class="y centered">319.1318681318682</desc></g></g></g><g class="series serie-12 color-12"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="289.3085714285715" rx="0" ry="0" width="4.268405938013981" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">14.549587584391608</desc><desc class="y centered">298.4212454212455</desc></g></g></g><g class="series serie-11 color-11"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="268.5979487179488" rx="0" ry="0" width="5.479916184058894" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">15.155342707414064</desc><desc class="y centered">277.7106227106228</desc></g></g></g><g class="series serie-10 color-10"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="247.88732600732607" rx="0" ry="0" width="6.157559881061516" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">15.494164555915376</desc><desc class="y centered">257.00000000000006</desc></g></g></g><g class="series serie-9 color-9"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="227.17670329670338" rx="0" ry="0" width="6.246725400601036" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">15.538747315685136</desc><desc class="y centered">236.28937728937737</desc></g></g></g><g class="series serie-8 color-8"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="206.46608058608066" rx="0" ry="0" width="19.842500751147504" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">5 B</desc><desc class="x centered">22.33663499095837</desc><desc class="y centered">215.57875457875465</desc></g></g></g><g class="series serie-7 color-7"><g class="bars"><g class="bar"><rect x="12.415384615384617" y="185.75545787545798" rx="0" ry="0" width="24.781185825985247" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">6 B</desc><desc class="x centered">24.80597752837724</desc><desc class="y centered">194.86813186813197</desc></g></g></g><g class="series serie-6 color-6"><g class="bars"><g class="bar"><rect x="12.41538461538461" y="165.04483516483526" rx="0" ry="0" width="95.09574340124419" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">25 B</desc><desc class="x centered">59.96325631600671</desc><desc class="y centered">174.15750915750925</desc></g></g></g><g class="series serie-5 color-5"><g class="bars"><g class="bar"><rect x="12.41538461538461" y="144.33421245421255" rx="0" ry="0" width="101.060031549685" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">26 B</desc><desc class="x centered">62.94540039022711</desc><desc class="y centered">153.44688644688654</desc></g></g></g><g class="series serie-4 color-4"><g class="bars"><g class="bar"><rect x="12.415384615384625" y="123.62358974358983" rx="0" ry="0" width="151.48334737107962" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">40 B</desc><desc class="x centered">88.15705830092443</desc><desc class="y centered">132.73626373626382</desc></g></g></g><g class="series serie-3 color-3"><g class="bars"><g class="bar"><rect x="12.415384615384625" y="102.91296703296712" rx="0" ry="0" width="183.69981762674928" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">49 B</desc><desc class="x centered">104.26529342875926</desc><desc class="y centered">112.02564102564111</desc></g></g></g><g class="series serie-2 color-2"><g class="bars"><g class="bar"><rect x="12.415384615384596" y="82.2023443223444" rx="0" ry="0" width="277.68241305097087" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">74 B</desc><desc class="x centered">151.25659114087003</desc><desc class="y centered">91.31501831501839</desc></g></g></g><g class="series serie-1 color-1"><g class="bars"><g class="bar"><rect x="12.415384615384596" y="61.49172161172169" rx="0" ry="0" width="537.5170293936806" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">143 B</desc><desc class="x centered">281.1738993122249</desc><desc class="y centered">70.60439560439568</desc></g></g></g><g class="series serie-0 color-0"><g class="bars"><g class="bar"><rect x="12.415384615384596" y="40.78109890109897" rx="0" ry="0" width="620.7692307692308" height="18.225347985347984" class="rect reactive tooltip-trigger" /><desc class="value">165 B</desc><desc class="x centered">322.8</desc><desc class="y centered">49.89377289377297</desc></g></g></g></g><g class="titles"><text x="400.0" y="26" class="title plot_title">Mozilla Handshakes by CA</text></g><g transform="translate(134, 46)" class="plot overlay"><g class="series serie-20 color-20" /><g class="series serie-19 color-19" /><g class="series serie-18 color-18" /><g class="series serie-17 color-17" /><g class="series serie-16 color-16" /><g class="series serie-15 color-15" /><g class="series serie-14 color-14" /><g class="series serie-13 color-13" /><g class="series serie-12 color-12" /><g class="series serie-11 color-11" /><g class="series serie-10 color-10" /><g class="series serie-9 color-9" /><g class="series serie-8 color-8" /><g class="series serie-7 color-7" /><g class="series serie-6 color-6" /><g class="series serie-5 color-5" /><g class="series serie-4 color-4" /><g class="series serie-3 color-3" /><g class="series serie-2 color-2" /><g class="series serie-1 color-1" /><g class="series serie-0 color-0" /></g><g transform="translate(134, 46)" class="plot text-overlay"><g class="series serie-20 color-20"><text text-anchor="middle" x="14.097275660130581" y="469.43956043956047" class="value showable">897 M</text></g><g class="series serie-19 color-19"><text text-anchor="middle" x="12.678643485269358" y="448.72893772893775" class="value showable">140 M</text></g><g class="series serie-18 color-18"><text text-anchor="middle" x="12.69682531551134" y="428.01831501831504" class="value showable">150 M</text></g><g class="series serie-17 color-17"><text text-anchor="middle" x="12.724715994508728" y="407.3076923076923" class="value showable">165 M</text></g><g class="series serie-16 color-16"><text text-anchor="middle" x="12.807159747446583" y="386.59706959706966" class="value showable">209 M</text></g><g class="series serie-15 color-15"><text text-anchor="middle" x="12.886329975789884" y="365.88644688644695" class="value showable">251 M</text></g><g class="series serie-14 color-14"><text text-anchor="middle" x="13.099098452690242" y="345.17582417582423" class="value showable">364 M</text></g><g class="series serie-13 color-13"><text text-anchor="middle" x="14.227550546188127" y="324.4652014652015" class="value showable">967 M</text></g><g class="series serie-12 color-12"><text text-anchor="middle" x="14.549587584391608" y="303.7545787545788" class="value showable">1 B</text></g><g class="series serie-11 color-11"><text text-anchor="middle" x="15.155342707414064" y="283.0439560439561" class="value showable">1 B</text></g><g class="series serie-10 color-10"><text text-anchor="middle" x="15.494164555915376" y="262.33333333333337" class="value showable">1 B</text></g><g class="series serie-9 color-9"><text text-anchor="middle" x="15.538747315685136" y="241.6227106227107" class="value showable">1 B</text></g><g class="series serie-8 color-8"><text text-anchor="middle" x="22.33663499095837" y="220.912087912088" class="value showable">5 B</text></g><g class="series serie-7 color-7"><text text-anchor="middle" x="24.80597752837724" y="200.2014652014653" class="value showable">6 B</text></g><g class="series serie-6 color-6"><text text-anchor="middle" x="59.96325631600671" y="179.4908424908426" class="value showable">25 B</text></g><g class="series serie-5 color-5"><text text-anchor="middle" x="62.94540039022711" y="158.78021978021988" class="value showable">26 B</text></g><g class="series serie-4 color-4"><text text-anchor="middle" x="88.15705830092443" y="138.06959706959717" class="value showable">40 B</text></g><g class="series serie-3 color-3"><text text-anchor="middle" x="104.26529342875926" y="117.35897435897444" class="value showable">49 B</text></g><g class="series serie-2 color-2"><text text-anchor="middle" x="151.25659114087003" y="96.64835164835172" class="value showable">74 B</text></g><g class="series serie-1 color-1"><text text-anchor="middle" x="281.1738993122249" y="75.937728937729" class="value showable">143 B</text></g><g class="series serie-0 color-0"><text text-anchor="middle" x="322.8" y="55.227106227106304" class="value showable">165 B</text></g></g><g transform="translate(134, 46)" class="plot tooltip-overlay"><g transform="translate(0 0)" style="opacity: 0" class="tooltip"><rect rx="0" ry="0" width="0" height="0" class="tooltip-box" /><g class="text" /></g></g><g transform="translate(10, 56)" class="legends"><g id="activate-serie-0" class="legend reactive activate-serie"><rect x="0.0" y="1.0" width="12" height="12" class="color-0 reactive" /><text x="17.0" y="11.2">GTS</text></g><g id="activate-serie-1" class="legend reactive activate-serie"><rect x="0.0" y="22.0" width="12" height="12" class="color-1 reactive" /><text x="17.0" y="32.2">DigiCert</text></g><g id="activate-serie-2" class="legend reactive activate-serie"><rect x="0.0" y="43.0" width="12" height="12" class="color-2 reactive" /><text x="17.0" y="53.2">ISRG</text></g><g id="activate-serie-3" class="legend reactive activate-serie"><rect x="0.0" y="64.0" width="12" height="12" class="color-3 reactive" /><text x="17.0" y="74.2">Amazon</text></g><g id="activate-serie-4" class="legend reactive activate-serie"><rect x="0.0" y="85.0" width="12" height="12" class="color-4 reactive" /><text x="17.0" y="95.2">Entrust</text></g><g id="activate-serie-5" class="legend reactive activate-serie"><rect x="0.0" y="106.0" width="12" height="12" class="color-5 reactive" /><text x="17.0" y="116.2">USERTrust</text></g><g id="activate-serie-6" class="legend reactive activate-serie"><rect x="0.0" y="127.0" width="12" height="12" class="color-6 reactive" /><text x="17.0" y="137.2">GlobalSign</text></g><g id="activate-serie-7" class="legend reactive activate-serie"><rect x="0.0" y="148.0" width="12" height="12" class="color-7 reactive" /><text x="17.0" y="158.2">Go Daddy</text></g><g id="activate-serie-8" class="legend reactive activate-serie"><rect x="0.0" y="169.0" width="12" height="12" class="color-8 reactive" /><text x="17.0" y="179.2">Starfield</text></g><g id="activate-serie-9" class="legend reactive activate-serie"><rect x="0.0" y="190.0" width="12" height="12" class="color-9 reactive" /><text x="17.0" y="200.2">Certum</text></g><g id="activate-serie-10" class="legend reactive activate-serie"><rect x="0.0" y="211.0" width="12" height="12" class="color-10 reactive" /><text x="17.0" y="221.2">COMODO</text></g><g id="activate-serie-11" class="legend reactive activate-serie"><rect x="0.0" y="232.0" width="12" height="12" class="color-11 reactive" /><text x="17.0" y="242.2">OU Security</text></g><g id="activate-serie-12" class="legend reactive activate-serie"><rect x="0.0" y="253.0" width="12" height="12" class="color-12 reactive" /><text x="17.0" y="263.2">T TeleSec</text></g><g id="activate-serie-13" class="legend reactive activate-serie"><rect x="0.0" y="274.0" width="12" height="12" class="color-13 reactive" /><text x="17.0" y="284.2">TUBITAK</text></g><g id="activate-serie-14" class="legend reactive activate-serie"><rect x="0.0" y="295.0" width="12" height="12" class="color-14 reactive" /><text x="17.0" y="305.2">SSL</text></g><g id="activate-serie-15" class="legend reactive activate-serie"><rect x="0.0" y="316.0" width="12" height="12" class="color-15 reactive" /><text x="17.0" y="326.2">Certigna</text></g><g id="activate-serie-16" class="legend reactive activate-serie"><rect x="0.0" y="337.0" width="12" height="12" class="color-16 reactive" /><text x="17.0" y="347.2">Buypass</text></g><g id="activate-serie-17" class="legend reactive activate-serie"><rect x="0.0" y="358.0" width="12" height="12" class="color-17 reactive" /><text x="17.0" y="368.2">IdenTrust</text></g><g id="activate-serie-18" class="legend reactive activate-serie"><rect x="0.0" y="379.0" width="12" height="12" class="color-18 reactive" /><text x="17.0" y="389.2">SwissSign</text></g><g id="activate-serie-19" class="legend reactive activate-serie"><rect x="0.0" y="400.0" width="12" height="12" class="color-19 reactive" /><text x="17.0" y="410.2">QuoVadis</text></g><g id="activate-serie-20" class="legend reactive activate-serie"><rect x="0.0" y="421.0" width="12" height="12" class="color-20 reactive" /><text x="17.0" y="431.2">Other</text></g></g><g transform="translate(790, 56)" class="legends" /></g></svg>
+</style><script type="text/javascript">window.pygal = window.pygal || {};window.pygal.config = window.pygal.config || {};window.pygal.config['a18f3a16-0f28-4754-970e-2298c4f78f25'] = {"allow_interruptions": false, "box_mode": "extremes", "classes": ["pygal-chart"], "css": ["file://style.css", "file://graph.css"], "defs": [], "disable_xml_declaration": false, "dots_size": 2.5, "dynamic_print_values": true, "explicit_size": false, "fill": false, "force_uri_protocol": "https", "formatter": null, "half_pie": false, "height": 600, "include_x_axis": false, "inner_radius": 0, "interpolate": null, "interpolation_parameters": {}, "interpolation_precision": 250, "inverse_y_axis": false, "js": ["//kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js"], "legend_at_bottom": false, "legend_at_bottom_columns": null, "legend_box_size": 12, "logarithmic": false, "margin": 20, "margin_bottom": null, "margin_left": null, "margin_right": null, "margin_top": null, "max_scale": 16, "min_scale": 4, "missing_value_fill_truncation": "x", "no_data_text": "No data", "no_prefix": false, "order_min": null, "pretty_print": true, "print_labels": false, "print_values": false, "print_values_position": "center", "print_zeroes": true, "range": null, "rounded_bars": null, "secondary_range": null, "show_dots": true, "show_legend": true, "show_minor_x_labels": true, "show_minor_y_labels": true, "show_only_major_dots": false, "show_x_guides": true, "show_x_labels": true, "show_y_guides": false, "show_y_labels": true, "spacing": 10, "stack_from_top": false, "strict": false, "stroke": true, "stroke_style": null, "style": {"background": "rgba(249, 249, 249, 1)", "ci_colors": [], "colors": ["#F44336", "#3F51B5", "#009688", "#FFC107", "#FF5722", "#9C27B0", "#03A9F4", "#8BC34A", "#FF9800", "#E91E63", "#2196F3", "#4CAF50", "#FFEB3B", "#673AB7", "#00BCD4", "#CDDC39", "#9E9E9E", "#607D8B"], "dot_opacity": "1", "font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "foreground": "rgba(0, 0, 0, .87)", "foreground_strong": "rgba(0, 0, 0, 1)", "foreground_subtle": "rgba(0, 0, 0, .54)", "guide_stroke_color": "black", "guide_stroke_dasharray": "4,4", "label_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "label_font_size": 10, "legend_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "legend_font_size": 14, "major_guide_stroke_color": "black", "major_guide_stroke_dasharray": "6,6", "major_label_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "major_label_font_size": 10, "no_data_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "no_data_font_size": 64, "opacity": ".7", "opacity_hover": ".8", "plot_background": "rgba(255, 255, 255, 1)", "stroke_opacity": ".8", "stroke_opacity_hover": ".9", "stroke_width": "1", "stroke_width_hover": "4", "title_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "title_font_size": 16, "tooltip_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "tooltip_font_size": 14, "transition": "150ms", "value_background": "rgba(229, 229, 229, 1)", "value_colors": [], "value_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "value_font_size": 16, "value_label_font_family": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace", "value_label_font_size": 10}, "title": "Mozilla Handshakes by CA", "tooltip_border_radius": 0, "tooltip_fancy_mode": true, "truncate_label": null, "truncate_legend": null, "width": 800, "x_label_rotation": 0, "x_labels": null, "x_labels_major": null, "x_labels_major_count": null, "x_labels_major_every": null, "x_title": null, "xrange": null, "y_label_rotation": 0, "y_labels": null, "y_labels_major": null, "y_labels_major_count": null, "y_labels_major_every": null, "y_title": null, "zero": 0, "legends": ["Google Trust Services LLC", "DigiCert", "Internet Security Research Group", "Amazon Trust Services", "Entrust", "Sectigo", "GlobalSign nv-sa", "GoDaddy", "Asseco Data Systems S.A. (previously Unizeto Certum)", "SECOM Trust Systems CO., LTD.", "Deutsche Telekom Security GmbH", "Government of Turkey, Kamu Sertifikasyon Merkezi (Kamu SM)", "SSL.com", "Certigna", "Buypass", "IdenTrust Services, LLC", "SwissSign AG", "QuoVadis", "Other"]}</script><script type="text/javascript" xlink:href="https://kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js" /></defs><title>Mozilla Handshakes by CA</title><g class="graph horizontalbar-graph horizontal"><rect x="0" y="0" width="800" height="600" class="background" /><g transform="translate(168, 46)" class="plot"><rect x="0" y="0" width="612.0" height="514" class="background" /><g class="axis x always_show"><g class="guides"><path d="M11.769231 0.000000 v514.000000" class="major line" /><text x="11.76923076923077" y="529.0" class="major">0.0</text></g><g class="guides"><path d="M82.802324 0.000000 v514.000000" class="guide line" /><text x="82.80232439650233" y="529.0" class="">20 B</text></g><g class="guides"><path d="M153.835418 0.000000 v514.000000" class="guide line" /><text x="153.83541802377385" y="529.0" class="">40 B</text></g><g class="guides"><path d="M224.868512 0.000000 v514.000000" class="guide line" /><text x="224.86851165104542" y="529.0" class="">60 B</text></g><g class="guides"><path d="M295.901605 0.000000 v514.000000" class="guide line" /><text x="295.90160527831694" y="529.0" class="">80 B</text></g><g class="guides"><path d="M366.934699 0.000000 v514.000000" class="major guide line" /><text x="366.9346989055885" y="529.0" class="major">100 B</text></g><g class="guides"><path d="M437.967793 0.000000 v514.000000" class="guide line" /><text x="437.9677925328601" y="529.0" class="">120 B</text></g><g class="guides"><path d="M509.000886 0.000000 v514.000000" class="guide line" /><text x="509.0008861601316" y="529.0" class="">140 B</text></g><g class="guides"><path d="M580.033980 0.000000 v514.000000" class="guide line" /><text x="580.0339797874032" y="529.0" class="">160 B</text></g></g><g class="series serie-18 color-18"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="452.94429149797577" rx="0" ry="0" width="2.756243221452607" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">776 M</desc><desc class="x centered">13.147352379957074</desc><desc class="y centered">463.01619433198385</desc></g></g></g><g class="series serie-17 color-17"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="430.05360323886646" rx="0" ry="0" width="0.4991153287259813" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">140 M</desc><desc class="x centered">12.01878843359376</desc><desc class="y centered">440.12550607287454</desc></g></g></g><g class="series serie-16 color-16"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="407.16291497975715" rx="0" ry="0" width="0.5335864566391226" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">150 M</desc><desc class="x centered">12.03602399755033</desc><desc class="y centered">417.23481781376523</desc></g></g></g><g class="series serie-15 color-15"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="384.27222672064784" rx="0" ry="0" width="0.5864646955461996" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">165 M</desc><desc class="x centered">12.062463117003869</desc><desc class="y centered">394.3441295546559</desc></g></g></g><g class="series serie-14 color-14"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="361.3815384615385" rx="0" ry="0" width="0.742770695290849" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">209 M</desc><desc class="x centered">12.140616116876195</desc><desc class="y centered">371.4534412955466</desc></g></g></g><g class="series serie-13 color-13"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="338.4908502024292" rx="0" ry="0" width="0.8928703844757884" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">251 M</desc><desc class="x centered">12.215665961468664</desc><desc class="y centered">348.5627530364373</desc></g></g></g><g class="series serie-12 color-12"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="315.6001619433199" rx="0" ry="0" width="1.2962604329749787" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">364 M</desc><desc class="x centered">12.41736098571826</desc><desc class="y centered">325.672064777328</desc></g></g></g><g class="series serie-11 color-11"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="292.7094736842106" rx="0" ry="0" width="3.4357049190973594" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">967 M</desc><desc class="x centered">13.48708322877945</desc><desc class="y centered">302.7813765182187</desc></g></g></g><g class="series serie-10 color-10"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="269.8187854251013" rx="0" ry="0" width="4.046258414180915" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">13.792359976321228</desc><desc class="y centered">279.89068825910937</desc></g></g></g><g class="series serie-9 color-9"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="246.92809716599194" rx="0" ry="0" width="5.194852538659347" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">14.366657038560444</desc><desc class="y centered">257.00000000000006</desc></g></g></g><g class="series serie-8 color-8"><g class="bars"><g class="bar"><rect x="11.76923076923077" y="224.03740890688263" rx="0" ry="0" width="5.921617006004315" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">1 B</desc><desc class="x centered">14.730039272232927</desc><desc class="y centered">234.10931174089075</desc></g></g></g><g class="series serie-7 color-7"><g class="bars"><g class="bar"><rect x="11.769230769230766" y="201.14672064777332" rx="0" ry="0" width="42.297587859989534" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">11 B</desc><desc class="x centered">32.91802469922553</desc><desc class="y centered">211.21862348178144</desc></g></g></g><g class="series serie-6 color-6"><g class="bars"><g class="bar"><rect x="11.769230769230774" y="178.256032388664" rx="0" ry="0" width="90.1465214738092" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">25 B</desc><desc class="x centered">56.842491506135374</desc><desc class="y centered">188.32793522267212</desc></g></g></g><g class="series serie-5 color-5"><g class="bars"><g class="bar"><rect x="11.769230769230774" y="155.3653441295547" rx="0" ry="0" width="102.06634912104737" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">28 B</desc><desc class="x centered">62.80240532975446</desc><desc class="y centered">165.4372469635628</desc></g></g></g><g class="series serie-4 color-4"><g class="bars"><g class="bar"><rect x="11.769230769230774" y="132.4746558704454" rx="0" ry="0" width="143.59958004602694" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">40 B</desc><desc class="x centered">83.56902079224425</desc><desc class="y centered">142.5465587044535</desc></g></g></g><g class="series serie-3 color-3"><g class="bars"><g class="bar"><rect x="11.769230769230774" y="109.58396761133608" rx="0" ry="0" width="174.14328614190086" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">49 B</desc><desc class="x centered">98.8408738401812</desc><desc class="y centered">119.65587044534418</desc></g></g></g><g class="series serie-2 color-2"><g class="bars"><g class="bar"><rect x="11.769230769230774" y="86.6932793522268" rx="0" ry="0" width="263.2305398333554" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">74 B</desc><desc class="x centered">143.38450068590848</desc><desc class="y centered">96.76518218623488</desc></g></g></g><g class="series serie-1 color-1"><g class="bars"><g class="bar"><rect x="11.769230769230774" y="63.80259109311748" rx="0" ry="0" width="509.5451423377269" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">143 B</desc><desc class="x centered">266.5418019380942</desc><desc class="y centered">73.87449392712557</desc></g></g></g><g class="series serie-0 color-0"><g class="bars"><g class="bar"><rect x="11.769230769230717" y="40.91190283400817" rx="0" ry="0" width="588.4615384615386" height="20.143805668016192" class="rect reactive tooltip-trigger" /><desc class="value">165 B</desc><desc class="x centered">306.0</desc><desc class="y centered">50.98380566801626</desc></g></g></g></g><g class="titles"><text x="400.0" y="26" class="title plot_title">Mozilla Handshakes by CA</text></g><g transform="translate(168, 46)" class="plot overlay"><g class="series serie-18 color-18" /><g class="series serie-17 color-17" /><g class="series serie-16 color-16" /><g class="series serie-15 color-15" /><g class="series serie-14 color-14" /><g class="series serie-13 color-13" /><g class="series serie-12 color-12" /><g class="series serie-11 color-11" /><g class="series serie-10 color-10" /><g class="series serie-9 color-9" /><g class="series serie-8 color-8" /><g class="series serie-7 color-7" /><g class="series serie-6 color-6" /><g class="series serie-5 color-5" /><g class="series serie-4 color-4" /><g class="series serie-3 color-3" /><g class="series serie-2 color-2" /><g class="series serie-1 color-1" /><g class="series serie-0 color-0" /></g><g transform="translate(168, 46)" class="plot text-overlay"><g class="series serie-18 color-18"><text text-anchor="middle" x="13.147352379957074" y="468.34952766531717" class="value showable">776 M</text></g><g class="series serie-17 color-17"><text text-anchor="middle" x="12.01878843359376" y="445.45883940620786" class="value showable">140 M</text></g><g class="series serie-16 color-16"><text text-anchor="middle" x="12.03602399755033" y="422.56815114709855" class="value showable">150 M</text></g><g class="series serie-15 color-15"><text text-anchor="middle" x="12.062463117003869" y="399.67746288798924" class="value showable">165 M</text></g><g class="series serie-14 color-14"><text text-anchor="middle" x="12.140616116876195" y="376.7867746288799" class="value showable">209 M</text></g><g class="series serie-13 color-13"><text text-anchor="middle" x="12.215665961468664" y="353.8960863697706" class="value showable">251 M</text></g><g class="series serie-12 color-12"><text text-anchor="middle" x="12.41736098571826" y="331.0053981106613" class="value showable">364 M</text></g><g class="series serie-11 color-11"><text text-anchor="middle" x="13.48708322877945" y="308.114709851552" class="value showable">967 M</text></g><g class="series serie-10 color-10"><text text-anchor="middle" x="13.792359976321228" y="285.2240215924427" class="value showable">1 B</text></g><g class="series serie-9 color-9"><text text-anchor="middle" x="14.366657038560444" y="262.33333333333337" class="value showable">1 B</text></g><g class="series serie-8 color-8"><text text-anchor="middle" x="14.730039272232927" y="239.4426450742241" class="value showable">1 B</text></g><g class="series serie-7 color-7"><text text-anchor="middle" x="32.91802469922553" y="216.55195681511478" class="value showable">11 B</text></g><g class="series serie-6 color-6"><text text-anchor="middle" x="56.842491506135374" y="193.66126855600547" class="value showable">25 B</text></g><g class="series serie-5 color-5"><text text-anchor="middle" x="62.80240532975446" y="170.77058029689616" class="value showable">28 B</text></g><g class="series serie-4 color-4"><text text-anchor="middle" x="83.56902079224425" y="147.87989203778685" class="value showable">40 B</text></g><g class="series serie-3 color-3"><text text-anchor="middle" x="98.8408738401812" y="124.9892037786775" class="value showable">49 B</text></g><g class="series serie-2 color-2"><text text-anchor="middle" x="143.38450068590848" y="102.09851551956821" class="value showable">74 B</text></g><g class="series serie-1 color-1"><text text-anchor="middle" x="266.5418019380942" y="79.2078272604589" class="value showable">143 B</text></g><g class="series serie-0 color-0"><text text-anchor="middle" x="306.0" y="56.317139001349595" class="value showable">165 B</text></g></g><g transform="translate(168, 46)" class="plot tooltip-overlay"><g transform="translate(0 0)" style="opacity: 0" class="tooltip"><rect rx="0" ry="0" width="0" height="0" class="tooltip-box" /><g class="text" /></g></g><g transform="translate(10, 56)" class="legends"><g id="activate-serie-0" class="legend reactive activate-serie"><rect x="0.0" y="1.0" width="12" height="12" class="color-0 reactive" /><text x="17.0" y="11.2">Google Trust S…</text><title>Google Trust Services LLC</title></g><g id="activate-serie-1" class="legend reactive activate-serie"><rect x="0.0" y="22.0" width="12" height="12" class="color-1 reactive" /><text x="17.0" y="32.2">DigiCert</text></g><g id="activate-serie-2" class="legend reactive activate-serie"><rect x="0.0" y="43.0" width="12" height="12" class="color-2 reactive" /><text x="17.0" y="53.2">Internet Secur…</text><title>Internet Security Research Group</title></g><g id="activate-serie-3" class="legend reactive activate-serie"><rect x="0.0" y="64.0" width="12" height="12" class="color-3 reactive" /><text x="17.0" y="74.2">Amazon Trust S…</text><title>Amazon Trust Services</title></g><g id="activate-serie-4" class="legend reactive activate-serie"><rect x="0.0" y="85.0" width="12" height="12" class="color-4 reactive" /><text x="17.0" y="95.2">Entrust</text></g><g id="activate-serie-5" class="legend reactive activate-serie"><rect x="0.0" y="106.0" width="12" height="12" class="color-5 reactive" /><text x="17.0" y="116.2">Sectigo</text></g><g id="activate-serie-6" class="legend reactive activate-serie"><rect x="0.0" y="127.0" width="12" height="12" class="color-6 reactive" /><text x="17.0" y="137.2">GlobalSign nv-…</text><title>GlobalSign nv-sa</title></g><g id="activate-serie-7" class="legend reactive activate-serie"><rect x="0.0" y="148.0" width="12" height="12" class="color-7 reactive" /><text x="17.0" y="158.2">GoDaddy</text></g><g id="activate-serie-8" class="legend reactive activate-serie"><rect x="0.0" y="169.0" width="12" height="12" class="color-8 reactive" /><text x="17.0" y="179.2">Asseco Data Sy…</text><title>Asseco Data Systems S.A. (previously Unizeto Certum)</title></g><g id="activate-serie-9" class="legend reactive activate-serie"><rect x="0.0" y="190.0" width="12" height="12" class="color-9 reactive" /><text x="17.0" y="200.2">SECOM Trust Sy…</text><title>SECOM Trust Systems CO., LTD.</title></g><g id="activate-serie-10" class="legend reactive activate-serie"><rect x="0.0" y="211.0" width="12" height="12" class="color-10 reactive" /><text x="17.0" y="221.2">Deutsche Telek…</text><title>Deutsche Telekom Security GmbH</title></g><g id="activate-serie-11" class="legend reactive activate-serie"><rect x="0.0" y="232.0" width="12" height="12" class="color-11 reactive" /><text x="17.0" y="242.2">Government of …</text><title>Government of Turkey, Kamu Sertifikasyon Merkezi (Kamu SM)</title></g><g id="activate-serie-12" class="legend reactive activate-serie"><rect x="0.0" y="253.0" width="12" height="12" class="color-12 reactive" /><text x="17.0" y="263.2">SSL.com</text></g><g id="activate-serie-13" class="legend reactive activate-serie"><rect x="0.0" y="274.0" width="12" height="12" class="color-13 reactive" /><text x="17.0" y="284.2">Certigna</text></g><g id="activate-serie-14" class="legend reactive activate-serie"><rect x="0.0" y="295.0" width="12" height="12" class="color-14 reactive" /><text x="17.0" y="305.2">Buypass</text></g><g id="activate-serie-15" class="legend reactive activate-serie"><rect x="0.0" y="316.0" width="12" height="12" class="color-15 reactive" /><text x="17.0" y="326.2">IdenTrust Serv…</text><title>IdenTrust Services, LLC</title></g><g id="activate-serie-16" class="legend reactive activate-serie"><rect x="0.0" y="337.0" width="12" height="12" class="color-16 reactive" /><text x="17.0" y="347.2">SwissSign AG</text></g><g id="activate-serie-17" class="legend reactive activate-serie"><rect x="0.0" y="358.0" width="12" height="12" class="color-17 reactive" /><text x="17.0" y="368.2">QuoVadis</text></g><g id="activate-serie-18" class="legend reactive activate-serie"><rect x="0.0" y="379.0" width="12" height="12" class="color-18 reactive" /><text x="17.0" y="389.2">Other</text></g></g><g transform="translate(790, 56)" class="legends" /></g></svg>
