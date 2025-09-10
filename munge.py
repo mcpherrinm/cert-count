@@ -6,7 +6,7 @@ import matplotlib.ticker
 import matplotlib.pyplot as plt
 
 def read_telemetry():
-    raw = open("cert.validation_success_by_ca.json").read()
+    raw = open("cert.validation_success_by_ca_2.json").read()
     data = json.loads(raw)
 
     bins = collections.defaultdict(int)
@@ -18,12 +18,15 @@ def read_telemetry():
     return bins
 
 def read_bin_fingerprints():
-    raw = open("KnownRootHashes.json").read()
-    data = json.loads(raw)
-
     ret = {}
-    for root in data["roots"]:
-        ret[root["binNumber"]] = base64.b64decode(root["sha256Fingerprint"])
+    with open("KnownRootHashes.txt") as hashes:
+        for line in hashes:
+            if len(line.strip()) == 0:
+                continue
+            if line.startswith("#"):
+                continue
+            root, bin_number, rest = line.split(" ", 2)
+            ret[int(bin_number)] = base64.b64decode(root)
 
     return ret
 
@@ -73,7 +76,7 @@ names = []
 values = []
 for name, count in sorted(CAs.items(), key=lambda kv: kv[1], reverse=True):
     # Skip entries below 0.01:
-    if count >  threshold:
+    if count > threshold:
         names += [name]
         values += [count]
     else:
