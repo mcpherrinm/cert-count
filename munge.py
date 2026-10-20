@@ -44,15 +44,25 @@ def read_ca_owners():
 bin_fingerprints = read_bin_fingerprints()
 ca_owners = read_ca_owners()
 
-CAs = collections.defaultdict(int)
+spellings = collections.defaultdict(int)
 total = 0
 
 for bin, count in read_telemetry().items():
     if bin in bin_fingerprints:
         fingerprint = bin_fingerprints[bin]
         name = ca_owners[fingerprint]
-        CAs[name] += count
+        spellings[name] += count
         total += count
+
+# CCADB isn't consistent about capitalization of CA names, so merge them
+# case-insensitively, using whichever spelling has the most validations
+merged = collections.defaultdict(list)
+for name, count in spellings.items():
+    merged[name.lower()].append((count, name))
+
+CAs = {}
+for variants in merged.values():
+    CAs[max(variants)[1]] = sum(count for count, _ in variants)
 
 with open("CA.csv", "w") as f:
     w = csv.writer(f)
@@ -70,25 +80,28 @@ def human_format(num, pos):
     return '%.0f%s' % (int(num), ['', 'K', 'M', 'B'][magnitude])
 
 other = 0
-threshold = int(0.0002 * total)
+top_n = 50
 
 names = []
 values = []
-for name, count in sorted(CAs.items(), key=lambda kv: kv[1], reverse=True):
-    # Skip entries below 0.01:
-    if count > threshold:
+for i, (name, count) in enumerate(sorted(CAs.items(), key=lambda kv: kv[1], reverse=True)):
+    if count == 0:
+        continue
+    if i < top_n:
         names += [name]
         values += [count]
     else:
         other += count
 
-names += ["Other"]
-values += [other]
+if other > 0:
+    names += ["Other"]
+    values += [other]
 
 names.reverse()
 values.reverse()
 
 fig, ax = plt.subplots(figsize=(16, 8))
+ax.set_xscale("log")
 ax.xaxis.set_major_formatter(human_format)
 
 plt.barh(names, values)
