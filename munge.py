@@ -11,9 +11,9 @@ def read_telemetry():
 
     bins = collections.defaultdict(int)
 
-    for release in data["data"]:
-        for entry in release["non_norm_histogram"]:
-            bins[entry["bin"]] += entry["value"]
+    for release in data["response"]:
+        for bin, value in release["non_norm_histogram"].items():
+            bins[int(bin)] += value
 
     return bins
 
@@ -32,7 +32,7 @@ def read_bin_fingerprints():
 
 def read_ca_owners():
     CAs = {}
-    with open("AllCertificateRecordsCSVFormatv2.csv", newline="") as csvfile:
+    with open("AllCertificateRecordsCSVFormatv4.csv", newline="") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             raw = bytes.fromhex(row["SHA-256 Fingerprint"])
