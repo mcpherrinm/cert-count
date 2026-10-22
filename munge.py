@@ -188,12 +188,17 @@ if other > 0:
 names.reverse()
 values.reverse()
 
-fig, ax = plt.subplots(figsize=(16, 8))
-ax.set_xscale("log")
-ax.xaxis.set_major_formatter(human_format)
+def plot(filename, scale):
+    fig, ax = plt.subplots(figsize=(16, 8))
+    ax.set_xscale(scale)
+    ax.xaxis.set_major_formatter(human_format)
 
-plt.barh(names, values)
-plt.title("Firefox Certificate Validations by CA")
-plt.tight_layout()
+    ax.barh(names, values)
+    ax.set_title("Firefox Certificate Validations by CA")
+    fig.tight_layout()
 
-plt.savefig("CA.svg")
+    fig.savefig(filename)
+    plt.close(fig)
+
+plot("CA.svg", "log")
+plot("CA-linear.svg", "linear")
