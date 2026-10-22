@@ -128,6 +128,20 @@ def read_ca_owners():
             CAs[raw] = (name, country)
     return CAs
 
+def read_mozilla_tls_owners():
+    """CA owners with a root included in Mozilla's root store for TLS"""
+    owners = {}
+    with open("AllCertificateRecordsCSVFormatv4.csv", newline="") as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row["Mozilla Status"] != "Included":
+                continue
+            if "Server Authentication" not in row["Trust Bits for Root Cert"].split(";"):
+                continue
+            name = strip_business_suffix(row["CA Owner"].split(",")[0].split("(")[0].strip())
+            owners.setdefault(name.lower(), (name, COUNTRY_CODES[row["Country"]]))
+    return owners
+
 
 bin_fingerprints = read_bin_fingerprints()
 ca_owners = read_ca_owners()
@@ -163,6 +177,15 @@ with open("CA.csv", "w") as f:
         if count > 0:
             w.writerow([name, countries[name.lower()], count])
 
+# Mozilla-trusted TLS CAs that don't appear in the telemetry at all
+validated = {name.lower() for name, count in CAs.items() if count > 0}
+with open("CA-zero.csv", "w") as f:
+    w = csv.writer(f)
+    w.writerow(["CA", "country"])
+    for key, (name, country) in sorted(read_mozilla_tls_owners().items()):
+        if key not in validated:
+            w.writerow([name, country])
+
 @matplotlib.ticker.FuncFormatter
 def human_format(num, pos):
     magnitude = 0
@@ -180,7 +203,7 @@ for i, (name, count) in enumerate(sorted(CAs.items(), key=lambda kv: kv[1], reve
     if count == 0:
         continue
     if i < top_n:
-        names += [f"{name} ({countries[name.lower()]})"]
+        names += [f"{i + 1}. {name} ({countries[name.lower()]})"]
         values += [count]
     else:
         other += count

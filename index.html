@@ -11,20 +11,49 @@
   nav a { margin-right: 1em; }
   nav a.current { font-weight: bold; color: inherit; text-decoration: none; }
   img { display: block; flex: 1; min-height: 0; width: 100%; object-fit: contain; }
+  #zero { padding: 0 16px; }
+  [hidden] { display: none !important; }
 </style>
 </head>
 <body>
 <nav>
   <a href="#log" data-src="CA.svg">Log scale</a>
   <a href="#linear" data-src="CA-linear.svg">Linear scale</a>
+  <a href="#zero">Zero validations</a>
 </nav>
 <img src="CA.svg" alt="Firefox Certificate Validations by CA">
+<section id="zero" hidden>
+  <p>CAs with a root included in Mozilla's root store for TLS, but no validations in Firefox telemetry:</p>
+  <ul></ul>
+</section>
 <script>
   function show() {
     const links = document.querySelectorAll("nav a");
     const current = [...links].find(a => a.hash === location.hash) || links[0];
-    document.querySelector("img").src = current.dataset.src;
+    const img = document.querySelector("img");
+    const zero = document.querySelector("#zero");
+    img.hidden = !current.dataset.src;
+    zero.hidden = !img.hidden;
+    if (current.dataset.src) {
+      img.src = current.dataset.src;
+    } else {
+      loadZero();
+    }
     links.forEach(a => a.classList.toggle("current", a === current));
+  }
+  let zeroLoaded = false;
+  async function loadZero() {
+    if (zeroLoaded) return;
+    zeroLoaded = true;
+    const text = await (await fetch("CA-zero.csv")).text();
+    const list = document.querySelector("#zero ul");
+    // Skip the header row; CA names never contain commas (munge.py strips them)
+    for (const line of text.trim().split(/\r?\n/).slice(1)) {
+      const [name, country] = line.split(",");
+      const li = document.createElement("li");
+      li.textContent = `${name} (${country})`;
+      list.append(li);
+    }
   }
   window.addEventListener("hashchange", show);
   show();
