@@ -10,12 +10,14 @@ def read_telemetry():
     data = json.loads(raw)
 
     bins = collections.defaultdict(int)
+    versions = set()
 
     for release in data["response"]:
+        versions.add(release["version"])
         for bin, value in release["non_norm_histogram"].items():
             bins[int(bin)] += value
 
-    return bins
+    return bins, sorted(versions)
 
 def read_bin_fingerprints():
     ret = {}
@@ -134,7 +136,9 @@ spellings = collections.defaultdict(int)
 countries = {}
 total = 0
 
-for bin, count in read_telemetry().items():
+bins, versions = read_telemetry()
+
+for bin, count in bins.items():
     if bin in bin_fingerprints:
         fingerprint = bin_fingerprints[bin]
         name, country = ca_owners[fingerprint]
@@ -165,7 +169,7 @@ def human_format(num, pos):
     while abs(num) >= 1000:
         magnitude += 1
         num /= 1000
-    return '%.0f%s' % (int(num), ['', 'K', 'M', 'B'][magnitude])
+    return '%.0f%s' % (int(num), ['', 'K', 'M', 'B', 'T'][magnitude])
 
 other = 0
 top_n = 50
@@ -194,7 +198,7 @@ def plot(filename, scale):
     ax.xaxis.set_major_formatter(human_format)
 
     ax.barh(names, values)
-    ax.set_title("Firefox Certificate Validations by CA")
+    ax.set_title(f"Firefox Certificate Validations by CA (Firefox {', '.join(map(str, versions))})")
     fig.tight_layout()
 
     fig.savefig(filename)
